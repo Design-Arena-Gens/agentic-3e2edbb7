@@ -1,0 +1,34 @@
+:root {
+  color-scheme: dark;
+  --page-bg: #02010d;
+  --text-primary: #f5f7ff;
+  --hud-accent: #ffe600;
+  --wall-color: #0031ff;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  min-height: 100vh;
+  color: var(--text-primary);
+  background: radial-gradient(circle at top, #0b1446 0%, var(--page-bg) 60%);
+  font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.4;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
